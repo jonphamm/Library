@@ -48,12 +48,11 @@ body {
     transform: translateY(-6px);
   }
   
-  #Library-container {
+  #library-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
   
   
   /* Book and its contents */ 
