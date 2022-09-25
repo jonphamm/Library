@@ -135,7 +135,7 @@ input#title {
     width: 200px;
     font-size: 20px;
     border: solid 3px black;
-    margin-bottom: 15px;
+    
 }
 
 input#author {
@@ -143,7 +143,7 @@ input#author {
     width: 200px;
     font-size: 20px;
     border: solid 3px black;
-    margin-bottom: 15px;
+    
 }
   
 input#pages {
@@ -151,7 +151,7 @@ input#pages {
     width: 200px;
     font-size: 20px;
     border: solid 3px black;
-    margin-bottom: 15px;
+    
 }
   
 input[type=checkbox] {
