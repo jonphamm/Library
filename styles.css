@@ -49,7 +49,7 @@ h1 {
     transform: translateY(-6px);
 }
   
-#library-container {
+#Library-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -61,19 +61,20 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid black;
+    border: 3px solid rgb(101, 96, 96);
+    box-shadow: 0 0 12px rgb(0, 0, 0);
     border-radius: 25px;
     height: 300px;
     width: 250px;
     padding: 15px;
     margin: 20px;
-    background-color: #fbd082;
+    background-color: #fae1b2;
 }
   
 .title {
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 20px;
 }
   
 .author {
@@ -95,6 +96,11 @@ button:focus {outline:0;}
     margin-bottom: 20px;
     border-radius: 10px;
     border: solid 3px black;
+    background-color: #63da63;
+}
+
+.readBtn:hover {
+    background-color: rgb(41, 255, 41);
 }
   
 #removeBtn {
@@ -103,7 +109,11 @@ button:focus {outline:0;}
     width: 110px;
     border-radius: 10px;
     border: solid 3px black;
-    background-color: #d7d9da;
+    background-color: #bcbdbd;
+}
+
+#removeBtn:hover {
+    background-color: #d2d2d2; 
 }
   
 #addBtn {
@@ -196,3 +206,15 @@ input[type=checkbox] {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+  
+  

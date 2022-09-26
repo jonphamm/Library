@@ -16,7 +16,7 @@ class Book {
     constructor(title, author, pages, read) {
         this.title = form.title.value; 
         this.author = form.author.value; 
-        this.pages = form.pages.value + 'pg'; 
+        this.pages = form.pages.value + ' pages'; 
         this.read = form.read.checked; 
     }
 }
@@ -43,7 +43,7 @@ function render() {
     const books = document.querySelectorAll('.book');
     books.forEach(book => display.removeChild(book));
    
-    for (let i=0; i<myLibrary.length; i++){
+    for (let i = 0; i < myLibrary.length; i++){
         createBook(myLibrary[i]);
     }
 }
@@ -82,7 +82,6 @@ function createBook(item) {
         readBtn.style.backgroundColor = '#e04f63';
     }else {
         readBtn.textContent = 'Read';
-        readBtn.style.backgroundColor = '#63da63'
     }
 
     // creates remove button on new book display in book library
